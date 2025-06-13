@@ -4,9 +4,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #c9cec8;    
-    position: absolute;
-    bottom: 0;
-    width: 100%
+    position: sticky;
 }
 
 footer ul{

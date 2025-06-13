@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    min-height: 100vh;
 }
 
 h2{
@@ -64,7 +64,7 @@ button{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    margin: 20px;
+
 }
 
 button:hover{
