@@ -262,8 +262,8 @@ button:hover{
 
 @media(max-width:432px){
     
-     main{
-        height: 200vh;
+    main{
+        height: 190vh;
     }
     
     .container-items{    
