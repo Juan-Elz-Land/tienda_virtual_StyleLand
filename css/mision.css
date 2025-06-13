@@ -96,3 +96,16 @@ cite {
         margin-top: 5px;
     }
 }
+
+@media (max-width: 432px) {
+    
+    .container{
+        height: 110vh;
+    }
+
+    .div-imagen{
+        width: 350px;
+        height: 350px;
+        margin-top: 5px;
+    }
+}

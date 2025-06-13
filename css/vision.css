@@ -94,8 +94,21 @@ cite {
     }
 
     .div-imagen{
-        width: 350px;
-        height: 350px;
+        width: 370px;
+        height: 370px;
         margin-top: 5px;
+    }
+}
+
+@media (max-width: 432px) {
+    
+    .container{
+        height: 120vh;
+    }
+
+    .div-imagen{
+        width: 370px;
+        height: 370px;
+        margin-top: 1px;
     }
 }
