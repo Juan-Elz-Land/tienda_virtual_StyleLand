@@ -5,10 +5,11 @@
 }
 
 .container {
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 h2{
@@ -63,7 +64,7 @@ button{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    margin: 10px;
+    margin: 20px;
 }
 
 button:hover{

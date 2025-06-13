@@ -6,7 +6,7 @@ main{
     justify-content: center;
     align-items: center;    
     flex-grow: 1;
-    height: 100vh;  
+    height: auto;  
 }
 
 
@@ -19,11 +19,11 @@ main{
     text-decoration:  underline 2px;
 }
 
-.container-items{                   
+.container-items{          
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,2fr);
-    gap: 50px;         
+    gap: 50px;        
 }
 
 .div-container{
