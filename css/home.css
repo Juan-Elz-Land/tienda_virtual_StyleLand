@@ -162,7 +162,7 @@ button:hover{
     }    
 }
 
-@media(max-width:400px){
+@media(max-width:465px){
     
     main{
         height: 180vh;
@@ -172,6 +172,51 @@ button:hover{
         font-size: 25px;
     }
 
+    .container-items{    
+        flex-grow: 0;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;                
+    }
+    
+    .div-1{                
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+
+    .div-2{
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+
+    .div-3{
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+
+    .div-4{
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+
+    .div-5{
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+
+    .div-6{
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+}
+
+@media(max-width:400px){
+    
     .container-items{    
         flex-grow: 0;
         grid-template-columns: repeat(1,1fr);
