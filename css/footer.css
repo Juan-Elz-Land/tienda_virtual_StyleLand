@@ -1,0 +1,108 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9cec8;    
+}
+
+footer ul{
+    list-style-type: none;    
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: rgba(48, 27, 3, 0.479);
+}
+
+.div-datos-tienda{
+    padding-left: 20PX;
+}
+
+.div-links{
+    padding-left: 0px;
+}
+
+.div-redes-sociales{
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .lista_menu{
+        gap: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer ul li {
+        margin: 10px 0;
+    }    
+
+    .div-links{
+        padding-left: 20px;
+    }
+
+    .div-redes-sociales{
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:400px){
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer ul li {
+        margin: 5px 0;
+    }
+}

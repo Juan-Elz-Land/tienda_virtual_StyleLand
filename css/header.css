@@ -1,0 +1,29 @@
+*{
+     margin: 0px;    
+     padding: 0px; 
+     box-sizing: border-box;
+     font-family: 'Times New Roman', Times, serif;   
+     font-style: italic;
+}
+
+nav{   
+    background-color: #c9cec8;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.lista_menu{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.lista_menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
