@@ -116,10 +116,6 @@ button:hover{
 
 @media (max-width: 768px) {
    
-    main{
-        height: 100vh;  
-    }
-
     .container-items{      
         grid-template-columns: repeat(2,1fr);
         gap: 15px;
@@ -164,10 +160,6 @@ button:hover{
 
 @media(max-width:465px){
     
-    main{
-        height: 180vh;
-    }
-
     h1{
         font-size: 25px;
     }
@@ -261,10 +253,6 @@ button:hover{
 }
 
 @media(max-width:432px){
-    
-    main{
-        height: 190vh;
-    }
     
     .container-items{    
         flex-grow: 0;

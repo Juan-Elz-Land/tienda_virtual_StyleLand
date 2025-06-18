@@ -41,19 +41,8 @@ cite {
   color: #555;
 }
 
-@media (max-width: 768px) {
-    
-    .container{
-        height: 100vh;
-    }
-}
-
 @media (max-width: 568px) {
     
-    .container{
-        height: 100vh;
-    }
-
     .div-imagen{
         width: 450px;
         height: 450px;
@@ -63,10 +52,6 @@ cite {
 
 @media (max-width: 456px) {
     
-    .container{
-        height: 100vh;
-    }
-
     .div-imagen{
         width: 410px;
         height: 410px;
@@ -76,10 +61,6 @@ cite {
 
 @media (max-width: 420px) {
     
-    .container{
-        height: 100vh;
-    }
-
     .div-imagen{
         width: 390px;
         height: 390px;
@@ -89,10 +70,6 @@ cite {
 
 @media (max-width: 400px) {
     
-    .container{
-        height: 110vh;
-    }
-
     .div-imagen{
         width: 370px;
         height: 370px;
@@ -101,10 +78,6 @@ cite {
 }
 
 @media (max-width: 432px) {
-    
-    .container{
-        height: 120vh;
-    }
 
     .div-imagen{
         width: 370px;

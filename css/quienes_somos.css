@@ -34,20 +34,8 @@ p{
     text-align: justify;
 }
 
-
-@media (max-width: 768px) {
-    
-    .container{
-        height: 100vh;
-    }
-}
-
 @media (max-width: 568px) {
     
-    .container{
-        height: 100vh;
-    }
-
     .div-imagen{
         width: 450px;
         height: 450px;
@@ -56,10 +44,6 @@ p{
 }
 
 @media (max-width: 456px) {
-    
-    .container{
-        height: 100vh;
-    }
 
     .div-imagen{
         width: 410px;
@@ -70,10 +54,6 @@ p{
 
 @media (max-width: 420px) {
     
-    .container{
-        height: 100vh;
-    }
-
     .div-imagen{
         width: 390px;
         height: 390px;
@@ -83,10 +63,6 @@ p{
 
 @media (max-width: 400px) {
     
-    .container{
-        height: 100vh;
-    }
-
     .div-imagen{
         width: 350px;
         height: 350px;
