@@ -14,14 +14,14 @@ let opciones = [
         
         {
             "Page" : "Quiénes Somos",
-            "Url"   : "../pages/quienes_somos.html",
+            "Url"   : "/pages/quienes_somos.html",
             "Class" : "",
             "id" : "quines_somos"      
         },
         
         {
             "Page" : "Contactos",
-            "Url"   : "../pages/contacto.html",
+            "Url"   : "/pages/contacto.html",
             "Class" : "",
             "id" : "contacto"    
         }
