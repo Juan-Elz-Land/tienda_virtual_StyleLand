@@ -47,7 +47,7 @@
             "Producto":"Vestido",
             "Precio" : "S/. 100.00",
             "Categoria" : "Ropa",
-            "Imagen" : "img/Vestido.png"
+            "Imagen" : "img/vestido.png"
         },
 
         {
@@ -75,7 +75,7 @@
             "Producto" : "Zapatillas blancas",
             "Precio" : "S/. 120.00",
             "Categoria" : "Calzado",
-            "Imagen" : "img/Zapatillas_Blancas.png"
+            "Imagen" : "img/zapatillas_blancas.png"
         },
 
         {
