@@ -20,9 +20,14 @@ main{
 }
 
 .container-items{          
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,2fr);
+    grid-template-rows: repeat(1,2fr);*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
     gap: 50px;        
 }
 
@@ -55,7 +60,7 @@ main{
 .container-items p{
     padding-left: 5px;
 }
-
+/*
 .div-1{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -97,7 +102,7 @@ main{
     justify-content: center;
     align-items: center;
     margin: 20px;
-}
+
 
 button{
     width: 140px;
@@ -113,9 +118,10 @@ button:hover{
     background-color: #e4eece;
     cursor: pointer;
 }
-
+}*/
 @media (max-width: 768px) {
    
+   /*
     .container-items{      
         grid-template-columns: repeat(2,1fr);
         gap: 15px;
@@ -155,7 +161,7 @@ button:hover{
         grid-column: auto;
         grid-row: auto;
         height: auto;
-    }    
+    }    */
 }
 
 @media(max-width:465px){
@@ -164,6 +170,7 @@ button:hover{
         font-size: 25px;
     }
 
+    /*
     .container-items{    
         flex-grow: 0;
         grid-template-columns: repeat(1,1fr);
@@ -204,11 +211,11 @@ button:hover{
         grid-column: auto;
         grid-row: auto;
         height: auto;
-    }
+    }*/
 }
 
 @media(max-width:400px){
-    
+    /*
     .container-items{    
         flex-grow: 0;
         grid-template-columns: repeat(1,1fr);
@@ -249,11 +256,11 @@ button:hover{
         grid-column: auto;
         grid-row: auto;
         height: auto;
-    }
+    }*/
 }
 
 @media(max-width:432px){
-    
+   /* 
     .container-items{    
         flex-grow: 0;
         grid-template-columns: repeat(1,1fr);
@@ -295,4 +302,5 @@ button:hover{
         grid-row: auto;
         height: auto;
     }
+        */
 }

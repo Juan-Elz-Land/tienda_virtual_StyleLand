@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StyleLand - Home</title>
     
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -26,84 +27,24 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html"><img src="img/logotipp_StyleLan.png" alt="logotipo StyleLand" width="150" height="70"></a>
-            <ul class="lista_menu">
-                <li> <a id="index" href="index.html">Inicio</a></li>
-                <li> <a href="mision.html">Misión</a></li>
-                <li> <a href="vision.html">Visión</a></li>
-                <li> <a href="quienes_somos.html">Quiénes Somos</a></li>
-                <li> <a href="contacto.html">Contacto</a></li> 
-                <li> <a href="#"><img src="img/search.png" width="24px" height="24px"></a></li>
-                <li> <a href="#"><img src="img/shopping cart.png" width="24px" height="24px"></a></li>       
-            </ul>
+        <nav class="nav-menu">
+     
         </nav>
     </header>
     <main>
-            <h1>Productos recien llegados</h1>
-            <p id="subtitulo">Echa un vistazo a nuestros últimos productos!</p>
-         <section class="container-items">        
-                <div class="div-container div-1">
-                    <div class="div-img"><img src="img/polo.png" alt="Polo.png"></div>
-                    <h3>Camiseta</h3>
-                    <p>S/. 20.00</p>
-                </div>  
-                <div class="div-container div-2">
-                    <div class="div-img"><img src="img/gafas.png" alt="gafas.png" ></div>
-                    <h3>Gafas de sol</h3>
-                    <p>S/. 15.00</p>
-                </div>
-                <div class="div-container div-3">
-                    <div class="div-img"><img src="img/reloj_casio.png" alt="reloj_casio.png"></div>
-                    <h3>Reloj Casio</h3>
-                    <p>S/. 250.00</p>
-                </div>
-           
-                <div class="div-container div-4">
-                    <div class="div-img"><img src="img/chaqueta.png" alt="chaqueta.png" ></div>
-                    <h3>Chaqueta</h3>
-                    <p>S/. 60.00</p>
-                </div>
-                <div class="div-container div-5">
-                    <div class="div-img"><img src="img/bolso.png" alt="bolso.png" ></div>
-                    <h3>Bolso de Lona</h3>
-                    <p>S/. 25.00</p>
-                </div>
-                <div class="div-container div-6">
-                    <div class="div-img"><img src="img/zapatos.png" alt="zapatos.png" ></div>
-                    <h3>Camiseta</h3>
-                    <p>S/. 90.00</p>
-                </div>            
-        </section>
-        <section>
-            <div class="div-button">
-                <button type="button">VER TODOS</button>
-            </div>
+    <h1>Productos recien llegados</h1>
+        <p id="subtitulo">Echa un vistazo a nuestros últimos productos!</p>
+        <section id="principal" class="container-items">        
+                         
         </section>
     </main>
-    <footer>
-        <div class="div-datos-tienda">
-            <ul>
-                <li><a class="img-tel" href="tel:+51948213075"><img src="img/celular.png" alt="" width="23px" height="30px"> +51 948213075</a></li>
-                <li><img src="img/email.png" alt="" width="23px" height="23px"> styleland@gmail.com</li>
-                <li><img src="img/address.png" alt="" width="23px" height="23px"> Av. Bolognesi #765 - Chiclayo - Perú</li>
-            </ul>
-        </div>
-
-        <div class="div-links">
-            <ul>
-                <li><a href="#">Envíos y Entregas</a></li>
-                <li><a href="#">Políticas de devoluciones</a></li>
-                <li><a href="#">Opiniones</a></li>
-            </ul>
-        </div>
-        <div class="div-redes-sociales">
-            <a href="#"><img src="img/tiktok.png" alt="" width="23px" height="23px"></a>
-            <a href="#"><img src="img/whatsapp.png" alt="" width="23px" height="23px"></a>
-            <a href="#"><img src="img/tiktok.png" alt="" width="23px" height="23px"></a>
-            <a href="#"><img src="img/facebook.png" alt="" width="23px" height="23px"></a>
-            <a href="#"><img src="img/instagram.png" alt="" width="23px" height="23px"></a>
-        </div>
+    <footer class="footer-data">
+            
     </footer>
+    <script src="js/opciones.js"></script>
+    <script src="js/opciones_menu.js"></script>
+    <script src="js/Bd_productos.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/footer_data.js"></script>
 </body>
 </html>
