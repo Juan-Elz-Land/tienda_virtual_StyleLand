@@ -12,12 +12,12 @@
             </article>
         </div>
         <div class="div-imagen">
-            <img src="../img/tienda_fachada.png" alt="persona_comprando.png">
+            <img src="/tienda_virtual_StyleLand/img/tienda_fachada.png" alt="persona_comprando.png">
         </div>
     </section>
     <section class="mision">       
         <div class="div-imagen">
-            <img src="../img/persona_comprando.png" alt="persona_comprando.png">
+            <img src="/tienda_virtual_StyleLand/img/persona_comprando.png" alt="persona_comprando.png">
         </div>
         <div class="div-texto">
              <h2>Nuestra Misión</h2>
@@ -42,6 +42,6 @@
             </article>
         </div>
         <div class="div-imagen">
-            <img src="../img/img_vision.png" alt="persona_comprando.png">
+            <img src="/tienda_virtual_StyleLand/img/img_vision.png" alt="persona_comprando.png">
         </div>
     </section>`
