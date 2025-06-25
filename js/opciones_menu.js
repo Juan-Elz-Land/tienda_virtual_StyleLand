@@ -6,7 +6,7 @@
     function Mostrar_Menu_Opciones(){
         let op = opciones.map(op => `<li> <a id="${op.id}" href="${op.Url}" class="${op.Class}">${op.Page}</a></li>`)
         const nav_menu = document.querySelector(".nav-menu")
-        let menu =  `<a href="index.html"><img src="/img/logotipp_StyleLan.png" alt="logotipo StyleLand" width="150" height="70"></a>
+        let menu =  `<a href="/index.html"><img src="/img/logotipp_StyleLan.png" alt="logotipo StyleLand" width="150" height="70"></a>
             <ul class="lista_menu">
                ${op.join(' ')}               
             </ul>`

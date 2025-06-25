@@ -1,7 +1,7 @@
 let opciones = [
         {
             "Page" : "Inicio",
-            "Url"   : "../index.html",
+            "Url"   : "/index.html",
             "Class" : "",
             "id" : "index"
         },
@@ -14,14 +14,14 @@ let opciones = [
         
         {
             "Page" : "Quiénes Somos",
-            "Url"   : "/pages/quienes_somos.html",
+            "Url"   : "/../pages/quienes_somos.html",
             "Class" : "",
             "id" : "quines_somos"      
         },
         
         {
             "Page" : "Contactos",
-            "Url"   : "/pages/contacto.html",
+            "Url"   : "/../pages/contacto.html",
             "Class" : "",
             "id" : "contacto"    
         }
