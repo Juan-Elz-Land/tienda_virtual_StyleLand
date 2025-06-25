@@ -75,7 +75,7 @@
             "Producto" : "Zapatillas blancas",
             "Precio" : "S/. 120.00",
             "Categoria" : "Calzado",
-            "Imagen" : "img/zapatillas_blancas.png"
+            "Imagen" : "img/zapatilla_blancas.png"
         },
 
         {
