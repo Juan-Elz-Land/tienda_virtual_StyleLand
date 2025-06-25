@@ -1,7 +1,7 @@
 let opciones = [
         {
             "Page" : "Inicio",
-            "Url"   : "/tienda_virtual_StyleLand/index.html",
+            "Url"   : "../index.html",
             "Class" : "",
             "id" : "index"
         },
@@ -14,14 +14,14 @@ let opciones = [
         
         {
             "Page" : "Quiénes Somos",
-            "Url"   : "/tienda_virtual_StyleLand/pages/quienes_somos.html",
+            "Url"   : "/pages/quienes_somos.html",
             "Class" : "",
             "id" : "quines_somos"      
         },
         
         {
             "Page" : "Contactos",
-            "Url"   : "/tienda_virtual_StyleLand/pages/contacto.html",
+            "Url"   : "/pages/contacto.html",
             "Class" : "",
             "id" : "contacto"    
         }

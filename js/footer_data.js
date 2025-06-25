@@ -1,6 +1,7 @@
-"use strict"
+"use-script"
+
 document.querySelector(".footer-data").innerHTML = `
-        <div class="div-datos-tienda">
+    <div class="div-datos-tienda">
             <ul>
                 <li><a class="/img-tel" href="tel:+51948213075"><img src="/img/celular.png" alt="" width="23px" height="30px"> +51 948213075</a></li>
                 <li><img src="/img/email.png" alt="" width="23px" height="23px"> styleland@gmail.com</li>
