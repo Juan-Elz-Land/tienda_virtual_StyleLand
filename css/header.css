@@ -52,6 +52,7 @@ nav{
 
 .dropdown-menu li:hover {
     background-color: rgb(199, 196, 196);
+    cursor: pointer;
 } 
 .dropdown-menu li a {
     color: black;
@@ -68,3 +69,59 @@ nav{
     display: block;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: black;
+}
+
+.select:hover{
+    text-decoration:  underline 2px;
+}
+
+@media (max-width: 768px) {
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  padding: 0 20px;
+}
+
+/* Estilos generales */
+.nav-menu {
+  background-color: #c9cec8;
+  flex-direction: column;
+}
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .lista_menu {
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 90%;
+    background-color: #c9cec8;
+  }
+
+  .nav-menu.active .lista_menu {
+    display: flex;
+  }
+
+  .lista_menu li {
+    margin: 5px 0;
+  }
+
+
+
+.nav-menu.active .lista_menu {
+  opacity: 1;
+}
+
+
+}

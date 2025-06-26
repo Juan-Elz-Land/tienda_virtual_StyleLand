@@ -1,9 +1,4 @@
 
-#quines_somos{
-    color: #5E7722; 
-    text-decoration:  underline 2px;
-}
-
 main{
     display: flex;
     flex-direction: column;
@@ -55,29 +50,9 @@ p{
     text-align: justify;
 }
 
-@media (max-width: 1250px) {
-    
-    .div-imagen{
-        width: 25%;
-        height: 25%;
-    }
-}
 
-@media (max-width: 1088px){
-    .div-imagen{
-        width: 25%;
-        height: 25%;
-    }
-}
 
-@media (max-width: 1040px){
-    .div-imagen{
-        width: 25%;
-        height: 25%;
-    }
-}
-
-@media (max-width: 1000px){
+@media (max-width: 768px){
     .quines-somos{
         display: flex;
         flex-direction: column;
@@ -109,6 +84,122 @@ p{
         width: 80%;
         height: 80%;
         padding: 20px;
+    }
+}
+
+@media (max-width: 1500px){
+
+    .div-texto{
+        width: 45%;
+        height: 45%;
+        padding: 20px;
+    }
+
+    .div-imagen{
+        width: 30%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .div-texto{
+        width: 60%;
+        height: 60%;
+        padding: 50px;
+    }
+
+    .div-imagen{
+        width: 40%;
+        padding: 50px;
+    }
+}
+
+@media (max-width: 1084px){
+
+    .div-texto{
+        width: 60%;
+        height: 60%;
+        padding: 50px;
+    }
+
+    .div-imagen{
+        width: 40%;
+        padding: 50px;
+    }
+}
+
+@media (max-width: 900px){
+
+    .div-texto{
+        width: 60%;
+        height: 60%;
+        padding: 15px;
+    }
+
+    .div-imagen{
+        width: 40%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 910px){
+
+    .div-texto{
+        width: 60%;
+        height: 60%;
+        padding: 30px;
+    }
+
+    .div-imagen{
+        width: 40%;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .div-texto{
+        width: 75%;
+        height: 75%;
+        padding: 5px;
+    }
+
+    .div-texto h2{
+        text-align: center;
+    }
+
+    .div-imagen{
+        width: 75%;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 700px){
+
+    .div-texto{
+        width: 80%;
+        height: 80%;
+        padding: 10px;
+    }
+
+    .div-imagen{
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 432px){
+
+    .div-texto{
+        width: 80%;
+        height: 80%;
+        padding: 10px;
+    }
+
+    .div-imagen{
+        width: 80%;
+        padding: 10px;
     }
 }
 

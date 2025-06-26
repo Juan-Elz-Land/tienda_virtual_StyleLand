@@ -1,29 +1,4 @@
 
-#contacto{
-    color: #5E7722; 
-    text-decoration:  underline 2px;
-}
-
-.container {
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-h2{
-    padding: 10px;
-    margin-top: 30px;
-    font-size: 30px;    
-}
-
-p{
-    padding: 10px;
-    font-size: 20px;
-    margin:10px;
-}
-
 .formulario{    
     background-color: #E7EEE6;
     width: 30%;
@@ -34,6 +9,22 @@ p{
     align-items: center; 
     text-align: justify;  
     border-radius: 15px; 
+    padding: 15px;
+}
+
+.formulario h1{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.formulario p{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.inputs label {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .inputs{
@@ -71,39 +62,7 @@ button:hover{
     background-color: rgb(100, 98, 98);
 }
 
-@media (max-width: 1226px) {
-    .formulario{
-         width: 40%;
-    }
-
-    .texto_input{
-        width: 340px;
-        height: 40px;
-    }
-
-    button{
-        width: 240px;
-        height: 40px;
-    }
-}
-
-@media (max-width: 900px) {
-    .formulario{
-         width: 45%;
-    }
-
-    .texto_input{
-        width: 335px;
-        height: 35px;
-    }
-
-    button{
-        width: 235px;
-        height: 35px;
-    }
-}
-
-@media (max-width: 988px) {
+@media (max-width: 1600px) {
     .formulario{
          width: 50%;
     }
@@ -119,39 +78,7 @@ button:hover{
     }
 }
 
-@media (max-width: 808px) {
-    .formulario{
-         width: 60%;
-    }
-
-    .texto_input{
-        width: 330px;
-        height: 30px;
-    }
-
-    button{
-        width: 230px;
-        height: 30px;
-    }
-}
-
-@media (max-width: 768px) {
-    .formulario{
-         width: 70%;
-    }
-
-    .texto_input{
-        width: 330px;
-        height: 30px;
-    }
-
-    button{
-        width: 230px;
-        height: 30px;
-    }
-}
-
-@media (max-width: 682px) {
+@media (max-width: 840px) {
     .formulario{
          width: 80%;
     }
@@ -167,10 +94,10 @@ button:hover{
     }
 }
 
-@media (max-width: 658px) {
+@media (max-width: 568px) {
     .formulario{
-         width: 80%;
-    }
+         width: 90%;                  
+    }    
 
     .texto_input{
         width: 330px;
@@ -183,36 +110,64 @@ button:hover{
     }
 }
 
-@media (max-width: 553px) {
-    .formulario{
-         width: 90%;
-    }
-    
-     .texto_input{
-        width: 325px;
-        height: 30px;
-    }
-
-}
-
-@media (max-width: 470px) {
+@media (max-width: 500px) {
     .formulario{
          width: 100%;
     }
 
     .texto_input{
         width: 310px;
-        height: 30px;
+        height: 25px;
+    }
+
+    button{
+        width: 310px;
+        height: 25px;
+    }
+
+    .container{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 432px) {
+    .formulario{
+        width: 100%;
+    }
+
+    .texto_input{
+        width: 310px;
+        height: 25px;
+    }
+
+    button{
+        width: 310px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .container{
+        padding: 30px;
     }
 }
 
 @media (max-width: 400px) {
     .formulario{
-         width: 100%;
+        width: 100%;
     }
 
     .texto_input{
-        width: 300px;
-        height: 30px;
+        width: 310px;
+        height: 25px;
+    }
+
+    button{
+        width: 310px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .container{
+        padding: 10px;
     }
 }

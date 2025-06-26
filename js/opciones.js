@@ -1,28 +1,28 @@
 let opciones = [
         {
             "Page" : "Inicio",
-            "Url"   : "/tienda_virtual_StyleLand/index.html",
-            "Class" : "",
+            "Url"   : "javascript:void(0)",
+            "Class" : "select",
             "id" : "index"
         },
         {
             "Page" : "Productos",
-            "Url"   : "#",
-            "Class" : "dropdown",
-            "id" : ""         
+            "Url"   : "javascript:void(0)",
+            "Class" : "select dropdown",
+            "id" : "producto"         
         },
         
         {
             "Page" : "Quiénes Somos",
-            "Url"   : "/tienda_virtual_StyleLand/pages/quienes_somos.html",
-            "Class" : "",
+            "Url"   : "javascript:void(0)",
+            "Class" : "select",
             "id" : "quines_somos"      
         },
         
         {
             "Page" : "Contactos",
-            "Url"   : "/tienda_virtual_StyleLand/pages/contacto.html",
-            "Class" : "",
+            "Url"   : "javascript:void(0)",
+            "Class" : "select ",
             "id" : "contacto"    
         }
     ]
@@ -31,31 +31,31 @@ let opciones = [
         
         {
             "Name" : "Accesorios",
-            "Url"   : "#",
+            "Url"   : "javascript:void(0)",
             "Class" : "fas fa-gem"  
         },
 
         {
             "Name" : "Ropa",
-            "Url"   : "#",
+            "Url"   : "javascript:void(0)",
             "Class" : "fas fa-tshirt"  
         },
 
         {
             "Name" : "Calzado",
-            "Url"   : "#",
-            "Class" : "fas fa-tags"  
+            "Url"   : "javascript:void(0)",
+            "Class" : "fa-solid fa-shoe-prints"  
         },
 
         {
             "Name" : "Joyeria y reloj",
-            "Url"   : "#",
-            "Class" : ""  
+            "Url"   : "javascript:void(0)",
+            "Class" : "fa-regular fa-gem"  
         },
 
         {
             "Name" : "Bolsos",
-            "Url"   : "#",
-            "Class" : ""  
+            "Url"   : "javascript:void(0)",
+            "Class" : "fa-solid fa-bag-shopping"  
         }
     ]
