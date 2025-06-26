@@ -183,13 +183,13 @@ p{
 @media (max-width: 432px){
 
     .div-texto{
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         padding: 10px;
     }
 
     .div-imagen{
-        width: 80%;
+        width: 90%;
         padding: 10px;
     }
 }
