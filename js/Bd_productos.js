@@ -142,9 +142,115 @@
         },
 
         {
-            "Producto" : "Pantalón corlor plomo",
+            "Producto" : "Pantalón color plomo",
             "Precio": "S/. 60.00",
             "Categoria": "Ropa",
             "Imagen" : "assets/img/pantalon_plomo.png"
-        }
+        },
+
+        {
+            "Producto" : "Broches",
+            "Precio": "S/. 40.00",
+            "Categoria": "Accesorios",
+            "Imagen" : "assets/img/broches.png"
+        },
+
+        {
+            "Producto" : "Cincturón Decorativo",
+            "Precio": "S/. 45.00",
+            "Categoria": "Accesorios",
+            "Imagen" : "assets/img/cinturon_decorativo.png"
+        },
+
+        {
+            "Producto" : "Gorra",
+            "Precio": "S/. 45.00",
+            "Categoria": "Accesorios",
+            "Imagen" : "assets/img/gorra.png"
+        },
+
+        {
+            "Producto" : "Bufanda",
+            "Precio": "S/. 20.00",
+            "Categoria": "Accesorios",
+            "Imagen" : "assets/img/bufanda.png"
+        },
+
+        {
+            "Producto" : "Pañuelo",
+            "Precio": "S/. 15.00",
+            "Categoria": "Accesorios",
+            "Imagen" : "assets/img/pañuelo.png"
+        },
+
+        {
+            "Producto" : "Pasador de Corbata",
+            "Precio": "S/. 15.00",
+            "Categoria": "Accesorios",
+            "Imagen" : "assets/img/pasador_corbata.png"
+        },
+
+        {
+            "Producto" : "Sombrero",
+            "Precio": "S/. 15.00",
+            "Categoria": "Accesorios",
+            "Imagen" : "assets/img/sombrero.png"
+        },
+
+        {
+            "Producto" : "Botas de cuero",
+            "Precio": "S/. 150.00",
+            "Categoria": "Calzado",
+            "Imagen" : "assets/img/botas_cuero.png"
+        },
+
+        {
+            "Producto" : "Botas para hombre",
+            "Precio": "S/. 150.00",
+            "Categoria": "Calzado",
+            "Imagen" : "assets/img/botas_hombre.png"
+        },
+
+        {
+            "Producto" : "Sandalias para verano",
+            "Precio": "S/. 70.00",
+            "Categoria": "Calzado",
+            "Imagen" : "assets/img/sandalias_verano.png"
+        },
+
+        {
+            "Producto" : "Collar de oro",
+            "Precio": "S/. 1700.00",
+            "Categoria": "Joyeria y reloj",
+            "Imagen" : "assets/img/collar_oro.png"
+        },
+
+        {
+            "Producto" : "Collar de plata",
+            "Precio": "S/. 900.00",
+            "Categoria": "Joyeria y reloj",
+            "Imagen" : "assets/img/collar_plata.png"
+        },
+
+        {
+            "Producto" : "Pulsera de perlas",
+            "Precio": "S/. 300.00",
+            "Categoria": "Joyeria y reloj",
+            "Imagen" : "assets/img/pulsera_perlas.png"
+        },
+
+        {
+            "Producto" : "Mochila de viaje",
+            "Precio": "S/. 300.00",
+            "Categoria": "Bolsos",
+            "Imagen" : "assets/img/mochila_viajes.png"
+        },
+
+        {
+            "Producto" : "Cartera para niña",
+            "Precio": "S/. 300.00",
+            "Categoria": "Bolsos",
+            "Imagen" : "assets/img/cartera_niña.png"
+        }               
+        
     ]    
