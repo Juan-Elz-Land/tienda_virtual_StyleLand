@@ -81,6 +81,7 @@ button:hover{
 @media (max-width: 1366px) {
     .formulario{
          width: 40%;
+         padding: 0px;
     }
 
     .texto_input{
