@@ -1,4 +1,4 @@
-"use-script"
+"use strict"
 
 document.querySelector(".footer-data").innerHTML = `
     <div class="div-datos-tienda">
