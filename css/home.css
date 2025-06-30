@@ -21,12 +21,14 @@
 }
 
 .div-container{
-    width: 205px;
+    background-color: #f1f1f0;
+    width: 207px;
     height: 250px;
     border: 0.5px solid rgb(204, 200, 200);
 }
 
-.div-img{
+.div-img{    
+    background-color: #FFF8F0;
     width: 205px;
     height: 205px;
     border-bottom: 0.5px solid gainsboro;
@@ -38,17 +40,20 @@
     object-fit: contain;
 }
 
+.container-items h3{
+    padding-left: 5px;
+    color: #006064;
+}
+
+.container-items p{
+     color: #006064;
+     padding-left: 5px;
+}
+
 .div-img:hover{
     border: 1px solid rgb(170, 170, 219);
 }
 
-.container-items h3{
-    padding-left: 5px;
-}
-
-.container-items p{
-    padding-left: 5px;
-}
 /*
 .div-1{
     grid-column: 1/2;
