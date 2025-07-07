@@ -31,7 +31,7 @@
 
         {
             "Producto":"Bolso de Lona",
-            "Precio" : "14.3",
+            "Precio" : "14.8",
             "Categoria" : "Bolsos",
             "Imagen" : "assets/img/bolso.png"
         },
@@ -51,7 +51,7 @@
         },
 
         {
-            "Producto":"Relos Casio Digital",
+            "Producto":"Reloj Casio Digital",
             "Precio" : "S/. 300.00",
             "Categoria" : "Joyeria y reloj",
             "Imagen" : "assets/img/reloj_casio_digital.png"
@@ -93,7 +93,7 @@
         },
 
         {
-            "Producto" : "Bulsa de satén con lazo",
+            "Producto" : "Blusa de satén con lazo",
             "Precio": "S/. 120.00",
             "Categoria": "Ropa",
             "Imagen" : "assets/img/Blusa_de_saten.png"
@@ -156,7 +156,7 @@
         },
 
         {
-            "Producto" : "Cincturón Decorativo",
+            "Producto" : "Cinturón Decorativo",
             "Precio": "S/. 45.00",
             "Categoria": "Accesorios",
             "Imagen" : "assets/img/cinturon_decorativo.png"
