@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/quienes_somos.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/footer.css">
-
+    
     <meta name="description" content="tienda virtual StyleLand, venta de ropa y accesorios de moda">
     <meta property="og:title" content="StyleLand">
     <meta property="og:description" content="tienda virtual StyleLand, venta de ropa y accesorios de moda"> 
@@ -27,27 +27,33 @@
     <meta name="twitter:title" content="StyleLand">
     <meta name="twitter:image" content="https://juan-elz-land.github.io/tienda_virtual_StyleLand/img/logo.png">
     <meta name="twitter:description" content="tienda virtual StyleLand, venta de ropa y accesorios de moda">
+
+    <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-auth-compat.js"></script>
 </head>
-<body>
-    <header>
-        <nav class="nav-menu">
-     
+<body>    
+    <header>        
+        <nav class="nav-menu">     
         </nav>
-    </header>
-    <main class="container-main">
-        
+    </header>    
+    
+    <main class="container-main">        
     </main>
     <footer class="footer-data">
             
     </footer>    
+    <!--script type="module" src="js/app.js"></script-->
     <script src="js/opciones.js"></script>
-    <script src="js/opciones_menu.js"></script>
-    <script src="bd/Bd_productos.js"></script>
-    <script src="page/productos.js"></script>
+    <script src="js/opciones_menu.js"></script>    
+    <script type="module" src="page/productos.js"></script>
     <script src="page/quienes_somos.js"></script>
-    <script src="page/contacto.js"></script>
-    <script src="js/navegacion_menu.js"></script>
-    <script src="js/menu_responsive.js"></script>
-    <script src="js/footer_data.js"></script>
+    <script type="module" src="js/utilidades.js"></script>
+    <script type="module" src="page/contacto.js"></script>
+    <script src="page/quienes_somos.js"></script>
+    <script src="js/navegacion_menu.js"></script>    
+    <script src="js/menu_responsive.js"></script> 
+    <script src="page/login.js"></script>   
+    <script type="module" src="js/authenticate.js"></script>    
+    <script src="js/footer_data.js"></script>    
 </body>
 </html>

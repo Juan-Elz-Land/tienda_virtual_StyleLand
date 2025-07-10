@@ -21,14 +21,14 @@
 }
 
 .div-container{
-    background-color: #f1f1f0;
+    background-color: #f0f8f8;
     width: 207px;
     height: 250px;
     border: 0.5px solid rgb(204, 200, 200);
 }
 
 .div-img{    
-    background-color: #FFF8F0;
+    background-color: #ffffff;
     width: 205px;
     height: 205px;
     border-bottom: 0.5px solid gainsboro;
@@ -53,6 +53,25 @@
 .div-img:hover{
     border: 1px solid rgb(170, 170, 219);
 }
+
+/*.content-btn-carrito{
+    text-align: center;    
+}
+
+.btn_carrito{
+    width: 90%;
+    margin-top: 6px;
+    padding: 5px;
+    font-size: 15px;
+    background-color:  #ced9da;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_carrito:hover{
+    background-color:  #92c3c7;
+}*/
 
 /*
 .div-1{

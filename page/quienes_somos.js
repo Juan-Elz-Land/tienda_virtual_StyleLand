@@ -3,7 +3,8 @@
 
     function Mostrar_Quines_Somos(){
         document.querySelector(".container-main").innerHTML = 
-        `<section class="quines-somos">        
+        `<div class="name-user"><span id="usuario"></span></div>
+        <section class="quines-somos">        
             <div class="div-texto">
                 <h2>Quiénes Somos</h2>
                 <article>
@@ -46,4 +47,6 @@
                 <img src="/tienda_virtual_StyleLand/assets/img/img_vision.png" alt="persona_comprando.png">
             </div>
         </section>`
+
+        Verify_Authenticate()
     }

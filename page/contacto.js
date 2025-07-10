@@ -1,6 +1,9 @@
-    "use strict"
-    function Mostrar_Frm_Contacto(){
+    import { contactos_Collection,addDoc} from '../js/app.js'
+    import {Fecha_Corta} from '../js/utilidades.js'
+
+    export function Mostrar_Frm_Contacto(){
         document.querySelector(".container-main").innerHTML = `
+        <div class="name-user"><span id="usuario"></span></div>
         <div class="formulario">
                 <h1>Contáctanos</h1>
                 <p>Déjanos tu mensaje y nos pondremos  en 
@@ -24,23 +27,34 @@
                             <div><textarea name="mensaje" id="mensaje" class="texto_input" placeholder="tu mensaje.............." required></textarea></div>
                         </div>
                         <div>
-                            <button type="submit">Enviar Mensaje</button>
+                            <button class="btn_registrar" type="submit">Enviar Mensaje</button>
                         </div>
+                        <p id="message"></p>
                     </div>
                 </form>
             </div>`
 
-        document.getElementById("frm_contaco").addEventListener("submit",(e)=>{
-            e.preventDefault()
-            let data = {
-                "Nombre" : nombres.value,
-                "Email" : email.value,
-                "Telefono" : telefono.value,
-                "Mensaje" : mensaje.value
-            }
+        Verify_Authenticate()
 
-            alert("Mensaje ennviado :)")
-            console.log(data)
-            frm_contaco.reset()
-        })
+        document.getElementById("frm_contaco").addEventListener("submit",async (e)=>{
+            e.preventDefault()                
+                const Nombre =  nombres.value
+                const Email = email.value
+                const Telefono = telefono.value
+                const Mensaje = mensaje.value
+                const Fecha = Fecha_Corta()
+         
+            try {                            
+                await addDoc(contactos_Collection,{Email,Mensaje,Nombre,Telefono,Fecha})                
+                frm_contaco.reset()
+                message.innerHTML = "Su mensaje fue enviado con éxito ✅"
+                setTimeout(() => {
+                    message.innerHTML = ""
+                }, 3000);
+            } catch (error) {
+                console.error("Error al registrar: ",error)
+            }   
+        })         
     }
+
+    window.Mostrar_Frm_Contacto = Mostrar_Frm_Contacto

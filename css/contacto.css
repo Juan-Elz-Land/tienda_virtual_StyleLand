@@ -1,6 +1,6 @@
 
 .formulario{    
-    background-color: #E7EEE6;
+    background-color: #ddf0f1;
     width: 30%;
     height: 90%;
     display: flex;
@@ -9,17 +9,18 @@
     align-items: center; 
     text-align: justify;  
     border-radius: 15px; 
-    padding: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;    
 }
 
 .formulario h1{
     font-size: 25px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .formulario p{
     font-size: 15px;
-    margin: 5px;
 }
 
 .inputs label {
@@ -47,7 +48,7 @@
     height: 50px;
 }
 
-button{
+.btn_registrar{
 
     width: 250px;
     height: 50px;
@@ -55,11 +56,22 @@ button{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    margin: 30px;
+    margin: 20px;
 }
 
-button:hover{
+.btn_registrar:hover{
     background-color: rgb(100, 98, 98);
+}
+
+#message{
+    margin-top: 4px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+#frm_contaco{
+    padding-top: 0;
 }
 
 @media (max-width: 1600px) {
@@ -72,7 +84,7 @@ button:hover{
         height: 35px;
     }
 
-    button{
+    .btn_registrar{
         width: 235px;
         height: 35px;
     }
@@ -89,7 +101,7 @@ button:hover{
         height: 35px;
     }
 
-    button{
+    .btn_registrar{
         width: 235px;
         height: 35px;
     }
@@ -105,7 +117,7 @@ button:hover{
         height: 35px;
     }
 
-    button{
+    .btn_registrar{
         width: 235px;
         height: 35px;
     }
@@ -122,7 +134,7 @@ button:hover{
         height: 30px;
     }
 
-    button{
+    .btn_registrar{
         width: 230px;
         height: 30px;
     }
@@ -138,7 +150,7 @@ button:hover{
         height: 30px;
     }
 
-    button{
+    .btn_registrar{
         width: 230px;
         height: 30px;
     }
@@ -155,7 +167,7 @@ button:hover{
         height: 30px;
     }
 
-    button{
+    .btn_registrar{
         width: 230px;
         height: 30px;
     }
@@ -171,7 +183,7 @@ button:hover{
         height: 25px;
     }
 
-    button{
+    .btn_registrar{
         width: 310px;
         height: 25px;
         font-size: 15px;
@@ -189,7 +201,7 @@ button:hover{
         height: 20px;
     }
 
-    button{
+    .btn_registrar{
         width: 300px;
         height: 20px;
         font-size: 15px;
